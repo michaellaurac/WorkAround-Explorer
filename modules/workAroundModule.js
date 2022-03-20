@@ -29,7 +29,6 @@ const getIndustryAverageSalary = () => {
   return calculateAverage(allSalaries);
 }
 
-
 // Helper Function. Do not edit.
 // Note: This function does not need to be exported since it is only used by the functions contained within this module.
 function calculateAverage(arrayOfNumbers) {
@@ -38,3 +37,4 @@ function calculateAverage(arrayOfNumbers) {
   return (total / arrayOfNumbers.length).toFixed(2);
 }
 
+export { getAverageSalaryByRole, getAverageSalaryByCompany, getSalaryAtCompany, getIndustryAverageSalary }
