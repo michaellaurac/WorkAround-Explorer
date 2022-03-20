@@ -1,4 +1,6 @@
 // Add your imports here.
+import { getDataByRole, getDataByCompany } from './salaryData.js';
+import salaryData from './salaryData.js';
 
 // Replace the empty array with the appropriate imported function/value
 const getAverageSalaryByRole = role => {
@@ -35,5 +37,4 @@ function calculateAverage(arrayOfNumbers) {
   arrayOfNumbers.forEach(number => total += number);
   return (total / arrayOfNumbers.length).toFixed(2);
 }
-
 
